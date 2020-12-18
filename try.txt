@@ -1,1 +1,9 @@
-hola
+# ANTES DE EMPEZAR #
+
+git pull 
+
+
+
+git add try.txt #add file to your push
+git commit -m 'version name' #add version name
+git push #send update to the repository
