@@ -1,9 +1,13 @@
 # ANTES DE EMPEZAR #
+# Busca cambios de los otros y los actualiza
+git pull https://github.com/Redoned/BI-PRSTR-Mastodontes
 
-git pull 
+# AL FINAL #
+# Hacemos nuestros cambios y los subimos
 
-
-
-git add try.txt #add file to your push
-git commit -m 'version name' #add version name
-git push #send update to the repository
+# Indicas el archivo que quieres actualizar
+git add Assignment.R
+# Nombras la versión 
+git commit -m 'version name'
+# Envías la actualización al repositorio
+git push
