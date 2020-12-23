@@ -1,6 +1,6 @@
 # ANTES DE EMPEZAR #
 # Busca cambios de los otros y los actualiza
-git pull https://github.com/Redoned/BI-PRSTR-Mastodontes
+git pull https://github.com/Redoned/BI-PRSTR-Group3
 
 # AL FINAL #
 # Hacemos nuestros cambios y los subimos
