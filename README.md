@@ -7,7 +7,7 @@ git pull https://github.com/Redoned/BI-PRSTR-Group3
 # Hacemos nuestros cambios y los subimos
 
 ## Indicas el archivo que quieres actualizar
-git add Assignment.R
+git add dir/ or filename
 ## Nombras la versión 
 git commit -m 'version name'
 ## Envías la actualización al repositorio
