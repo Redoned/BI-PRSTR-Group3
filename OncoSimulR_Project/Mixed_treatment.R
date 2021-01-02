@@ -1,5 +1,9 @@
-# Instalar #
+# Instalar la última versión (≥2.99.8)
 '
+if (!require("BiocManager"))
+    install.packages("BiocManager")
+BiocManager::install("OncoSimulR", version = "3.11")
+
 if (!require("devtools"))
   install.packages("devtools")
 library(devtools)
