@@ -1,12 +1,15 @@
-# Instalar #
+# Instalar la última versión (≥2.99.8)
 '
+if (!require("BiocManager"))
+    install.packages("BiocManager")
+BiocManager::install("OncoSimulR", version = "3.11")
+
 if (!require("devtools"))
   install.packages("devtools")
 library(devtools)
 install_github("rdiaz02/OncoSimul/OncoSimulR", ref = "freq-dep-fitness")
 '
 library(OncoSimulR)
-
 
 # Healthy   Sensitive   Resistance1  Resistance2   BothRes
 a <- 1;     b <- 0.5;   c <- 0.5;    d <- 0.5;     e <- 0.5   # Healthy
