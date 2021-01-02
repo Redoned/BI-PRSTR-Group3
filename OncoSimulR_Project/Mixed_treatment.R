@@ -122,7 +122,7 @@ drug2_eff<-0.01
 
 players <- data.frame(Genotype = c("WT","S","R","T","R,T","S,R","S,T","S,R,T"),
                       Fitness = c(wt_fitness, #WT
-                                  paste0("if (T>50) (cos(T)/1.5) *", drug1_eff*drug2_eff*10 "*(",ss_fitness, ")",";  
+                                  paste0("if (T>50) (cos(T)/1.5) *", drug1_eff*drug2_eff*10, "*(",ss_fitness, ")",";  
                                            else ", ss_fitness, ";"), #SS
                                   "0","0","0",
                                   paste0("if (T>50) (cos(T)/1.5) *", drug1_eff, "*(",r1_fitness, ")",";  
